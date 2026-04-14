@@ -1,3 +1,12 @@
+---
+title: "SQL Noir – Case #001 (Easy)"
+date: 2026-04-13
+categories: [Writeups, SQLNoir]
+tags: [sql, ctf, investigation, database]
+description: Investigation of the Blue Note Lounge briefcase theft using SQL queries.
+image: /assets/img/sqlnoir-cover.png
+---
+
 # Case #001: The Vanishing Briefcase
 
 Set in the gritty 1980s, a valuable briefcase has disappeared from the Blue Note Lounge. A witness reported that a man in a trench coat was seen fleeing the scene. Investigate the crime scene, review the list of suspects, and examine interview transcripts to reveal the culprit.
