@@ -23,6 +23,7 @@ Since the case description already tells us that the theft happened on `July 15,
 ```sql
 SELECT * FROM crime_scene WHERE date = 19830715;
 ```
+
 | id | date | type | location | description |
 |----------|----------|----------|----------|----------|
 | 65   | 19830715   | theft   | 	West Hollywood Records   | A prized vinyl record was stolen from the store during a busy evening  |
@@ -35,6 +36,7 @@ Now that we know the `crime_scene_id` is **65**, we can query the witnesses tabl
 ```sql
 SELECT * FROM witnesses WHERE crime_scene_id = 65;
 ```
+
 | id | crime_scene_id | clue |
 |----------|----------|----------|
 | 28   | 65   | I saw a man wearing a red bandana rushing out of the store   |
@@ -53,6 +55,7 @@ Using the clues from the witnesses, we can now query the suspects table to find 
 ```sql
 SELECT * FROM suspects WHERE bandana_color = "red" AND accessory = "gold watch";
 ```
+
 | id | name | bandana_color | accessory |
 |----------|----------|----------|----------|
 | 35   | Tony Ramirez  | red   | gold watch   |
@@ -73,6 +76,7 @@ Since our suspect list has been narrowed down to three individuals, we can check
 ```sql
 SELECT * FROM interviews WHERE suspect_id IN (35, 44, 97);
 ```
+
 | suspect_id | transcript |
 |----------|----------|
 | 35   | I wasn't anywhere near West Hollywood Records that night   |
