@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 2: Hardcoded Database Credentials Leading to Database Access"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Discovery of hardcoded database credentials in LazyWeb, enabling direct database access and potential compromise of sensitive data.
 image: /assets/img/lazyweb-cover.png
@@ -60,3 +60,7 @@ Potential impacts include:
 - Use environment variables or secure secret management
 - Restrict database access to internal networks only
 - Implement proper access control policies
+
+## Severity
+
+<span style="color: #ff4d4f;">**Critical**</span>

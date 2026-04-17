@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 10: Time-Based Blind SQL Injection in Registration Function"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Exploitation of a time-based blind SQL injection vulnerability in LazyWeb to extract sensitive data from the database through time-delay techniques.
 image: /assets/img/lazyweb-cover.png
@@ -29,7 +29,7 @@ usermail=test@test.com
 SQL injection payload:
 
 ```sql
-[usermail=test@test.com](mailto:usermail=test@test.com)' AND SLEEP(510)-- -
+[usermail=test@test.com](mailto:usermail=test@test.com)' AND SLEEP(10)-- -
 ```
 
 Observed behaviour:

@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 5: XML External Entity (XXE) Injection"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Identification and exploitation of an XXE vulnerability in LazyWeb, enabling access to sensitive files and potential disclosure of internal system information.
 image: /assets/img/lazyweb-cover.png

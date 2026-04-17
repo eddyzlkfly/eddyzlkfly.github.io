@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 3: Insecure Direct Object Reference (IDOR) via Cookie Manipulation"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Exploitation of an IDOR vulnerability in LazyWeb by manipulating cookies, allowing access to other users’ data without proper authorization.
 image: /assets/img/lazyweb-cover.png
@@ -63,3 +63,7 @@ An attacker could modify the `user_id` cookie to access other user accounts, pot
 - Do not rely on client-controlled cookies for authentication.
 - Use secure session management.
 - Validate user identity on the server side.
+
+## Severity
+
+<span style="color: #ff922b;">**High**</span>

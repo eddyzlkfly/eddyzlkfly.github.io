@@ -1,8 +1,8 @@
 ---
 title: "SQL Noir – Case #002 (Easy)"
 date: 2026-04-13
-categories: [Writeups, SQLNoir]
-tags: [sql, ctf, investigation, database]
+categories: [Writeups, Detective, Database, Forensics]
+tags: [sql, forensics, investigation, database]
 description: Investigation of a stolen vinyl record case at West Hollywood Records using SQL queries.
 image: /assets/img/sqlnoir-cover.png
 ---

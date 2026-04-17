@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 8: Cross-Site Request Forgery (CSRF) → XSS"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Identification and exploitation of a CSRF vulnerability in LazyWeb, enabling attackers to inject and execute malicious scripts (XSS) in the victim’s browser.
 image: /assets/img/lazyweb-cover.png

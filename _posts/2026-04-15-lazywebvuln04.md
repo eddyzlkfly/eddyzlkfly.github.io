@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 4: Command Injection → Remote Code Execution (RCE)"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Analysis of a command injection vulnerability in LazyWeb, leading to arbitrary command execution and remote code execution (RCE).
 image: /assets/img/lazyweb-cover.png

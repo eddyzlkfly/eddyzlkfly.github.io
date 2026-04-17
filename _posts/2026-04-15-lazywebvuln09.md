@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 9: Stored Cross-Site Scripting (Stored XSS) → Session Hijacking"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Analysis of an XSS vulnerability in LazyWeb, allowing execution of malicious scripts and enabling session hijacking, potentially leading to account takeover.
 image: /assets/img/lazyweb-cover.png

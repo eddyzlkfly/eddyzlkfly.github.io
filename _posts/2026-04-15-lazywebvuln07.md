@@ -1,7 +1,7 @@
 ---
 title: "LazyWeb – VULN 7: Local File Inclusion (LFI)"
 date: 2026-04-14
-categories: [Writeups, WebPentest]
+categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Exploitation of a Local File Inclusion (LFI) vulnerability in LazyWeb to read sensitive files and gain insight into the underlying system.
 image: /assets/img/lazyweb-cover.png

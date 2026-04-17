@@ -1,8 +1,8 @@
 ---
 title: "SQL Noir – Case #001 (Easy)"
 date: 2026-04-13
-categories: [Writeups, SQLNoir]
-tags: [sql, ctf, investigation, database]
+categories: [Writeups, Detective, Database, Forensics]
+tags: [sql, forensics, investigation, database]
 description: Investigation of the Blue Note Lounge briefcase theft using SQL queries.
 image: /assets/img/sqlnoir-cover.png
 ---
