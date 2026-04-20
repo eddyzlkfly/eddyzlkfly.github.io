@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Analysis of an insecure file upload vulnerability in LazyWeb, allowing arbitrary file uploads and potential security risks.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 ---
 ## Description
 

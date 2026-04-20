@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Discovery of hardcoded database credentials in LazyWeb, enabling direct database access and potential compromise of sensitive data.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 ---
 ## Description
 

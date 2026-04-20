@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Identification and exploitation of an XXE vulnerability in LazyWeb, enabling access to sensitive files and potential disclosure of internal system information.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 ---
 ## Description
 

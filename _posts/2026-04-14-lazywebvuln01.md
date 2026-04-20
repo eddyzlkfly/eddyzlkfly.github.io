@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Identification and exploitation of an exposed Git repository in LazyWeb, leading to source code leakage and potential sensitive information disclosure.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 ---
 ## Description
 The `.git` directory was accessible through the web server. This allows attackers to retrieve repository metadata and potentially reconstruct the entire source code.

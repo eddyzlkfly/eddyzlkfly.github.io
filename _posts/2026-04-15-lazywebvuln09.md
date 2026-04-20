@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Analysis of an XSS vulnerability in LazyWeb, allowing execution of malicious scripts and enabling session hijacking, potentially leading to account takeover.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 --- 
 ## Description
 

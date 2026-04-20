@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Identification and exploitation of a CSRF vulnerability in LazyWeb, enabling attackers to inject and execute malicious scripts (XSS) in the victim’s browser.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 --- 
 ## Description
 

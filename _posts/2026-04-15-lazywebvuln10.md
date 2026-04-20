@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Exploitation of a time-based blind SQL injection vulnerability in LazyWeb to extract sensitive data from the database through time-delay techniques.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 --- 
 ## Description
 

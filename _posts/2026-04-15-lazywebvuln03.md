@@ -4,7 +4,7 @@ date: 2026-04-14
 categories: [Writeups, WebPentest, Web Exploitation]
 tags: [web security, pentesting, owasp, burp suite, vulnerability]
 description: Exploitation of an IDOR vulnerability in LazyWeb by manipulating cookies, allowing access to other users’ data without proper authorization.
-image: /assets/img/lazyweb-cover.png
+image: /assets/img/lazyweb-cover1.png
 ---
 ## **Description**
 
