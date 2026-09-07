@@ -1,18 +1,11 @@
-# OWASP Liga CTF 2026 (Boot2Root - Routine)
-
 ---
-title: "OWASP Liga CTF 2026 (Boot2Root - Routine)"
+title: "OWASP Liga CTF 2026 - Routine (Boot2Root)"
 date: 2026-09-07
 categories: [CTF, Writeups, B2R]
 tags: [OWASPKL]
 description: A misconfigured internal employee portal leaking credentials in client-side JavaScript, exposing other users' profiles through IDOR, and revealing sensitive paths via HTML comments — all leading to a flag hidden in an unprotected system log.
 image: /assets/img/OWASPKcover.png
 ---
-
-Tags: OWASPKL
-Categories: B2R, CTF, Writeups
-Date: May 29, 2026
-Status: Done
 
 ## Network Reconnaissance
 
