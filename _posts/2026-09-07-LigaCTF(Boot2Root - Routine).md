@@ -24,7 +24,7 @@ Only two ports were open. The primary target was the Grafana service running on 
 
 Identify Grafana Version & Directory Bruteforce
 
-![/assets/img/imgLIGA(1).png](/assets/img/imgLIGA(1).png)
+![/assets/img/imgLIGA(0).png](/assets/img/imgLIGA(0).png)
 
 The output revealed **Grafana 8.3.0**, which is important because this version contains a critical vulnerability.
 
@@ -43,7 +43,7 @@ Grafana versions **8.x prior to 8.3.1** are vulnerable to a **Path Traversal** f
 
 Using Burp Suite Repeater:
 
-![/assets/img/imgLIGA(2).png](/assets/img/imgLIGA(2).png)
+![/assets/img/imgLIGA(1).png](/assets/img/imgLIGA(1).png)
 
 > The application uses a MySQL plugin, so the plugin name `mysql` was used in the path.
 > 
@@ -52,7 +52,7 @@ The server returned the contents of `/etc/passwd`, confirming the vulnerability.
 
 ### Download the Grafana Database
 
-![/assets/img/imgLIGA(3).png](/assets/img/imgLIGA(3).png)
+![/assets/img/imgLIGA(2).png](/assets/img/imgLIGA(2).png)
 
 The `--path-as-is` option ensures that the `../` sequences are not normalized by curl.
 
@@ -62,7 +62,7 @@ A suspicious table named **credentials** was discovered during the listing of av
 
 Query the table:
 
-![/assets/img/imgLIGA(4).png](/assets/img/imgLIGA(4).png)
+![/assets/img/imgLIGA(3).png](/assets/img/imgLIGA(3).png)
 
 The table contained plaintext credentials stored in the Grafana database.
 
@@ -70,7 +70,7 @@ The table contained plaintext credentials stored in the Grafana database.
 
 Attempt SSH login using the discovered credentials:
 
-![/assets/img/imgLIGA(5).png](/assets/img/imgLIGA(5).png)
+![/assets/img/imgLIGA(4).png](/assets/img/imgLIGA(4).png)
 
 Login was successful.
 
@@ -88,9 +88,9 @@ cat local.txt
 
 After multiple enumeration, I check the cron jobs:
 
-![/assets/img/imgLIGA(6).png](/assets/img/imgLIGA(6).png)
+![/assets/img/imgLIGA(5).png](/assets/img/imgLIGA(5).png)
 
-![/assets/img/imgLIGA(7).png](/assets/img/imgLIGA(7).png)
+![/assets/img/imgLIGA(6).png](/assets/img/imgLIGA(6).png)
 
 The script `/opt/backup.sh` is executed by root every minute.
 
@@ -106,7 +106,7 @@ Since the file is owned by the user, it can be modified and will later be execut
 
 Replace the original script with a malicious payload:
 
-![/assets/img/imgLIGA(8).png](/assets/img/imgLIGA(8).png)
+![/assets/img/imgLIGA(7).png](/assets/img/imgLIGA(7).png)
 
 Wait for the cron job to execute.
 
@@ -124,7 +124,7 @@ The `-p` option tells Bash to preserve the effective privileges of the file owne
 
 Retrieve the root flag:
 
-![/assets/img/imgLIGA(9).png](/assets/img/imgLIGA(9).png)
+![/assets/img/imgLIGA(8).png](/assets/img/imgLIGA(8).png)
 
 ## 🚩 Root Flag
 
