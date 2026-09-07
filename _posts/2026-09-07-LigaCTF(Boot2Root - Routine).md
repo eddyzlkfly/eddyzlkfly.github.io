@@ -1,6 +1,6 @@
 ---
 title: "OWASP Liga CTF 2026 - Routine (Boot2Root)"
-date: 2026-09-07
+date: 2026-05-29
 categories: [CTF, Writeups, B2R]
 tags: [OWASPKL]
 description: A challenge featuring Grafana enumeration and exploitation of CVE-2021-43798, a path traversal vulnerability that allows unauthenticated arbitrary file reads. The attack chain leads to credential extraction from the Grafana database, SSH access, and privilege escalation through a root-executed cron job to obtain full system access.
